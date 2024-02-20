@@ -1,0 +1,122 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &315449294451871274
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 315449294451871285}
+  - component: {fileID: 315449294451871284}
+  - component: {fileID: 315449294451871275}
+  m_Layer: 5
+  m_Name: Crash
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &315449294451871285
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 315449294451871274}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 299, y: 70}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!320 &315449294451871284
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 315449294451871274}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: 68eeb137148f23b428350e858eebfc21, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: 0}
+    value: {fileID: 315449294451871275}
+  - key: {fileID: 0}
+    value: {fileID: 0}
+  - key: {fileID: 0}
+    value: {fileID: 0}
+  - key: {fileID: 0}
+    value: {fileID: 0}
+  - key: {fileID: 0}
+    value: {fileID: 0}
+  - key: {fileID: 0}
+    value: {fileID: 0}
+  - key: {fileID: 0}
+    value: {fileID: 0}
+  - key: {fileID: 0}
+    value: {fileID: 0}
+  - key: {fileID: 0}
+    value: {fileID: 0}
+  - key: {fileID: 0}
+    value: {fileID: 0}
+  - key: {fileID: 0}
+    value: {fileID: 0}
+  - key: {fileID: -3218373681234258517, guid: 68eeb137148f23b428350e858eebfc21, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 9168422070327140580, guid: 68eeb137148f23b428350e858eebfc21, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -8462556818062138173, guid: 68eeb137148f23b428350e858eebfc21, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -1337368861962311262, guid: 68eeb137148f23b428350e858eebfc21, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 7554114377211672633, guid: 68eeb137148f23b428350e858eebfc21, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 8664524097791212185, guid: 68eeb137148f23b428350e858eebfc21, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 5831563706174187050, guid: 68eeb137148f23b428350e858eebfc21, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -55225959242655264, guid: 68eeb137148f23b428350e858eebfc21, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 371244228426524192, guid: 68eeb137148f23b428350e858eebfc21, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -3968320373037036570, guid: 68eeb137148f23b428350e858eebfc21, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -3999963319638476826, guid: 68eeb137148f23b428350e858eebfc21, type: 2}
+    value: {fileID: 0}
+  m_ExposedReferences:
+    m_References:
+    - 7de5d2cc9d2d40249a0aee5d7b7b7002: {fileID: 0}
+    - 0491a3bc7141a484a9cb4f0af611d3c9: {fileID: 0}
+    - 492e5c2a41763e845b76345b7723c111: {fileID: 0}
+--- !u!95 &315449294451871275
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 315449294451871274}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
